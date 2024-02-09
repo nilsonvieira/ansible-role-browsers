@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Nilson R S Vieira
-  description: Role to install 1Password.
+  description: Role to install Browsers.
   min_ansible_version: '2.12'
   platforms:
     - name: Ubuntu
@@ -9,5 +9,5 @@ galaxy_info:
         - focal
         - jammy
   galaxy_tags:
-    - 1Password
+    - Browsers
 dependencies: []
