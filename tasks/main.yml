@@ -32,7 +32,7 @@
     state: present
     filename: vscode
 
-- name: Install Brownsers Packages 
+- name: Install Browsers Packages 
   become: true
   ansible.builtin.apt:
     name: "{{ packages }}"

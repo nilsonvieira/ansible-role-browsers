@@ -1,14 +1,14 @@
 # How to Install
 Configure the `requirements.yml` file.
 ```
-- name: brownsers
-  src: https://github.com/nilsonvieira/ansible-role-brownsers
+- name: browsers
+  src: https://github.com/nilsonvieira/ansible-role-browsers
   version: main
 ```
 In the Roles include:
 ```
   roles:
-    - brownsers
+    - browsers
 ```
 Execute the command to install role.
 
